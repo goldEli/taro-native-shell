@@ -181,7 +181,7 @@ android {
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
 			manifestPlaceholders = [
-				usesCleartextTraffic: "false"
+				usesCleartextTraffic: "true"
 			]
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
